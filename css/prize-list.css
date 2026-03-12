@@ -50,6 +50,18 @@ body .main{
     align-items: center;
 }
 
+@media(max-width:768px){
+    .context{
+    width: 100%;
+    height: auto;
+    background-image: url(../image/barquest-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 700px;
+}
+}
+
 /* 頁面樣式設定 結束 */
 
 /* 文字樣式設定 開始 */
