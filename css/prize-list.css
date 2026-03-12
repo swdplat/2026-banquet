@@ -82,7 +82,7 @@ body .main{
 }
 
 @media(max-width:576px){
-    .logo-inner{
+.logo-inner{
     max-width: 30%;
 }
 
@@ -168,4 +168,56 @@ table tr:first-child {
   background: -o-linear-gradient(270deg, #FF0000 0%, #FF0000 100%);
   color: #fff;
 }
+
+/* 中獎名單手機樣式 開始 */
+@media(max-width:768px){
+.chose_list{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Microsoft Yahei";
+  padding: 0 30px;
+}
+table tr {
+  display: block;
+  font-size: 0;
+  box-sizing: border-box;
+}
+ table tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.7);
+}
+table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.9);
+}
+ table td {
+  width: 25%;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 3vw;
+  line-height: 2em;
+  text-align: center;
+}
+ table th {
+  width: 25%;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 3vw;
+  line-height: 2em;
+  text-align: center;
+}
+table tr:first-child {
+  background-color: #c8c8c8;
+  background: -moz-linear-gradient(270deg, #FF0000 0%, #FF0000 100%);
+  background: -webkit-linear-gradient(270deg, #FF0000 0%, #FF0000 100%);
+  background: -o-linear-gradient(270deg, #FF0000 0%, #FF0000 100%);
+  color: #fff;
+}    
+}
+/* 中獎名單手機樣式 結束 */
+
 /* 中獎名單樣式 結束 */
