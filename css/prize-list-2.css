@@ -22,7 +22,6 @@ body .main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 1230px;
 }
 
 .logo_outer{
@@ -44,7 +43,7 @@ body .main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 @media(max-width:768px){
@@ -64,10 +63,10 @@ body .main{
 /* 文字樣式設定 開始 */
 .first_title{
     font-family: "思源黑體 Heavy", sans-serif;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: bold;
     line-height: normal;
-    margin: 0% 0% 1% 0%;
+    margin: 0% 0% 0% 0%;
     color: #fff;
     text-align: center;
     text-shadow: rgb(15, 15, 15) 0px 0px 20px, rgb(0, 0, 0) 0px 0px 20px;
@@ -75,10 +74,10 @@ body .main{
 
 .third_title{
     font-family: "思源黑體 Heavy", sans-serif;
-    font-size: 15vw;
+    font-size: 7vw;
     font-weight: bold;
     line-height: normal;
-    margin: 0% 0% 2% 0%;
+    margin: 0% 0% 0% 0%;
     color: transparent;
 
     position: relative;
@@ -88,21 +87,21 @@ body .main{
 
     -webkit-text-stroke: 1px transparent;
 
-    filter: drop-shadow(3px 3px 0px #e0c37a)
-            drop-shadow(5px 5px 0px #8a6018)
-            drop-shadow(7px 7px 0px #5e4110)
-            drop-shadow(10px 10px 15px rgb(255, 255, 255))
+    filter: drop-shadow(1px 1px 0px #e0c37a)
+            drop-shadow(3px 3px 0px #8a6018)
+            drop-shadow(5px 5px 0px #5e4110)
+            drop-shadow(4px 4px 3px rgb(255, 255, 255))
             drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.4));
     
     letter-spacing: 2px;
 }
 
 .bonus{
-    font-size: 8vw;
+    font-size: 5vw;
 }
 
 .dollar{
-    font-size: 8vw;
+    font-size: 5vw;
 }
 
 @media(max-width:576px){
@@ -119,7 +118,7 @@ body .main{
     font-size: 6vw;
     font-weight: bold;
     line-height: normal;
-    margin: 0% 0% 2% 0%;
+    margin: 0% 0% 0% 0%;
     color: #fff;
     text-align: center;
     text-shadow: rgb(15, 15, 15) 0px 0px 20px, rgb(0, 0, 0) 0px 0px 20px;
@@ -127,10 +126,10 @@ body .main{
 
 .third_title{
     font-family: "思源黑體 Heavy", sans-serif;
-    font-size: 15vw;
+    font-size: 7vw;
     font-weight: bold;
     line-height: normal;
-    margin: 0% 0% 2% 0%;
+    margin: 0% 0% 0% 0%;
     color: transparent;
 
     position: relative;
@@ -141,10 +140,10 @@ body .main{
     -webkit-text-stroke: 1px transparent;
 
     filter: drop-shadow(0px 0px 0px #e0c37a)
-            drop-shadow(2px 2px 0px #8a6018)
-            drop-shadow(4px 4px 0px #5e4110)
-            drop-shadow(5px 5px 15px rgb(255, 255, 255))
-            drop-shadow(0px 0px 22px rgba(255, 255, 255, 4.4));
+            drop-shadow(1px 1px 0px #8a6018)
+            drop-shadow(2px 2px 0px #5e4110)
+            drop-shadow(2px 2px 2px rgb(255, 255, 255))
+            drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.4));
     
     letter-spacing: 2px;
 }
@@ -156,7 +155,6 @@ body .main{
     width: 100%;
     max-width: 1000px;
     height: 650px;
-    margin-bottom: 50px;
     background-image: url(../image/border-newlist-3.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -169,7 +167,7 @@ table {
   box-sizing: border-box;
   font-family: "Microsoft Yahei";
   padding: 0 40px;
-  margin-top: 65px;
+  margin-top: 60px;
 }
 
 table tr {
