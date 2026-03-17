@@ -1,0 +1,335 @@
+/* 頁面樣式設定 開始 */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bg_region{
+    width: 100%;
+    height: 100vh;
+}
+
+.context{
+    width: 100%;
+    height: auto;
+    background-image: url(../image/barquest-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 1230px;
+}
+
+.logo_outer{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.logo-inner{
+    max-width: 190px;
+}
+
+.logo-inner img{
+    width: 100%;
+}
+
+.title_region{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+@media(max-width:768px){
+    .context{
+    width: 100%;
+    height: auto;
+    background-image: url(../image/barquest-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+}
+}
+
+/* 頁面樣式設定 結束 */
+
+/* 文字樣式設定 開始 */
+.first_title{
+    font-family: "思源黑體 Heavy", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0% 0% 1% 0%;
+    color: #fff;
+    text-align: center;
+    text-shadow: rgb(15, 15, 15) 0px 0px 20px, rgb(0, 0, 0) 0px 0px 20px;
+}
+
+.third_title{
+    font-family: "思源黑體 Heavy", sans-serif;
+    font-size: 15vw;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0% 0% 2% 0%;
+    color: transparent;
+
+    position: relative;
+    background: linear-gradient(to bottom,#ffffff 0%, #ffef9f 40%, #ffdc8b 50%, #ffc44d 60%, #c5a12d 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-stroke: 1px transparent;
+
+    filter: drop-shadow(3px 3px 0px #e0c37a)
+            drop-shadow(5px 5px 0px #8a6018)
+            drop-shadow(7px 7px 0px #5e4110)
+            drop-shadow(10px 10px 15px rgb(255, 255, 255))
+            drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.4));
+    
+    letter-spacing: 2px;
+}
+
+.bonus{
+    font-size: 8vw;
+}
+
+.dollar{
+    font-size: 8vw;
+}
+
+@media(max-width:576px){
+.logo-inner{
+    max-width: 30%;
+}
+
+.logo-inner img{
+    width: 100%;
+}
+
+.first_title{
+    font-family: "思源黑體 Heavy", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0% 0% 2% 0%;
+    color: #fff;
+    text-align: center;
+    text-shadow: rgb(15, 15, 15) 0px 0px 20px, rgb(0, 0, 0) 0px 0px 20px;
+}
+
+.third_title{
+    font-family: "思源黑體 Heavy", sans-serif;
+    font-size: 15vw;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0% 0% 2% 0%;
+    color: transparent;
+
+    position: relative;
+    background: linear-gradient(to bottom,#ffffff 0%, #ffef9f 40%, #ffdc8b 50%, #ffc44d 60%, #c5a12d 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-stroke: 1px transparent;
+
+    filter: drop-shadow(3px 3px 0px #e0c37a)
+            drop-shadow(5px 5px 0px #8a6018)
+            drop-shadow(7px 7px 0px #5e4110)
+            drop-shadow(10px 10px 15px rgb(255, 255, 255))
+            drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.4));
+    
+    letter-spacing: 2px;
+}
+}
+/* 文字樣式設定 結束 */
+
+/* 中獎名單樣式 開始 */
+.chose_list{
+    width: 100%;
+    max-width: 1000px;
+    height: 650px;
+    margin-bottom: 50px;
+    background-image: url(../image/border-newlist-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Microsoft Yahei";
+  padding: 0 40px;
+  margin-top: 65px;
+}
+
+table tr {
+  display: block;
+  font-size: 0;
+  box-sizing: border-box;
+}
+ /* table tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.7);
+}
+table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.9);
+} */
+ table td {
+  width: 25%;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 24px;
+  line-height: 2em;
+  text-align: center;
+  color: #fff;
+}
+ table th {
+  width: 25%;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 24px;
+  line-height: 2em;
+  text-align: center;
+  /* background-image: url(../image/table-title.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+.title-one{
+  background-image: url(../image/company.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 25%;
+  height: 50px;
+}
+.title-two{
+  background-image: url(../image/unit.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 25%;
+  height: 50px;
+}
+.title-three{
+  background-image: url(../image/number.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 25%;
+  height: 50px;
+}
+.title-four{
+  background-image: url(../image/prizeman.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 25%;
+  height: 50px;
+}
+table tr:first-child {
+  background-color: transparent;
+  /* background: -moz-linear-gradient(270deg, #FF0000 0%, #FF0000 100%);
+  background: -webkit-linear-gradient(270deg, #FF0000 0%, #FF0000 100%);
+  background: -o-linear-gradient(270deg, #FF0000 0%, #FF0000 100%); */
+  color: #fff;
+}
+
+/* 中獎名單手機樣式 開始 */
+@media(max-width:768px){
+.chose_list{
+    width: 100%;
+    margin-bottom: 50px;
+    background-image: url(../image/border-newlist-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Microsoft Yahei";
+  padding: 0 30px;
+  margin-top: 0px;
+}
+table tr {
+  display: block;
+  font-size: 0;
+  box-sizing: border-box;
+}
+ /* table tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.7);
+}
+table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.9);
+} */
+ table td {
+  width: 25%;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 2.5vw;
+  line-height: 2em;
+  text-align: center;
+}
+ table th {
+  width: 25%;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 3vw;
+  line-height: 2em;
+  text-align: center;
+}
+.title-one{
+  background-image: url(../image/company.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  width: 25%;
+  height: 50px;
+}
+.title-two{
+  background-image: url(../image/unit.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  width: 25%;
+  height: 50px;
+}
+.title-three{
+  background-image: url(../image/number.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  width: 25%;
+  height: 50px;
+}
+.title-four{
+  background-image: url(../image/prizeman.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  width: 25%;
+  height: 50px;
+}
+table tr:first-child {
+  background-color: transparent;
+  /* background: -moz-linear-gradient(270deg, #FF0000 0%, #FF0000 100%);
+  background: -webkit-linear-gradient(270deg, #FF0000 0%, #FF0000 100%);
+  background: -o-linear-gradient(270deg, #FF0000 0%, #FF0000 100%); */
+  color: #fff;
+}    
+}
+/* 中獎名單手機樣式 結束 */
+
+/* 中獎名單樣式 結束 */

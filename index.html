@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>得獎名單畫面</title>
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/prize-list.css" />
+    <link rel="stylesheet" href="./css/prize-list-2.css" />
     <script type="text/javascript" src="./js/SiblingsDisplayer.js"></script>
     <script type="text/javascript">
         main(jQuery, {
@@ -18,21 +18,21 @@
       <div class="bg_region">
         <div class="context">
           <div class="logo_outer">
-            <div class="logo-inner">
+            <!-- <div class="logo-inner">
               <img src="./image/logo.png" alt="" />
-            </div>
+            </div> -->
           </div>
           <div class="title_region">
-            <div class="first_title" id="Prize.Name">【第一獎】星際列車終極母艦獎</div>
-            <div class="third_title" id="Prize.Description">獎金 88,000 元</div>
+            <div class="first_title" id="Prize.Name">星際列車終極母艦獎</div>
+            <div class="third_title" id="Prize.Description"><span class="bonus" data-text="獎金">獎金</span>88,000<span class="dollar" data-text="元">元</span></div>
             <div class="chose_list">
               <table>
                 <tbody id="Winner.List">
                   <tr>
-                    <th>公司</th>
-                    <th>單位</th>
-                    <th>員工編號</th>
-                    <th>姓名</th>
+                    <th class="title-one"></th>
+                    <th class="title-two"></th>
+                    <th class="title-three"></th>
+                    <th class="title-four"></th>
                   </tr>
                   <tr>
                     <td>智冠科技</td>
