@@ -140,11 +140,11 @@ body .main{
 
     -webkit-text-stroke: 1px transparent;
 
-    filter: drop-shadow(3px 3px 0px #e0c37a)
-            drop-shadow(5px 5px 0px #8a6018)
-            drop-shadow(7px 7px 0px #5e4110)
-            drop-shadow(10px 10px 15px rgb(255, 255, 255))
-            drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.4));
+    filter: drop-shadow(0px 0px 0px #e0c37a)
+            drop-shadow(2px 2px 0px #8a6018)
+            drop-shadow(4px 4px 0px #5e4110)
+            drop-shadow(5px 5px 15px rgb(255, 255, 255))
+            drop-shadow(0px 0px 22px rgba(255, 255, 255, 4.4));
     
     letter-spacing: 2px;
 }
