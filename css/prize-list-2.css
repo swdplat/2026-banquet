@@ -155,7 +155,7 @@ body .main{
     width: 100%;
     max-width: 1000px;
     height: 650px;
-    background-image: url(../image/border-newlist-3.png);
+    background-image: url(../image/border-newlist-4.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -167,7 +167,7 @@ table {
   box-sizing: border-box;
   font-family: "Microsoft Yahei";
   padding: 0 40px;
-  margin-top: 60px;
+  margin-top: 35px;
 }
 
 table tr {
@@ -247,7 +247,7 @@ table tr:first-child {
 .chose_list{
     width: 100%;
     margin-bottom: 50px;
-    background-image: url(../image/border-newlist-3.png);
+    background-image: url(../image/border-newlist-4.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
@@ -259,7 +259,7 @@ table {
   box-sizing: border-box;
   font-family: "Microsoft Yahei";
   padding: 0 30px;
-  margin-top: 0px;
+  margin-top: -10px;
 }
 table tr {
   display: block;
@@ -322,9 +322,6 @@ table tr:nth-child(even) {
 }
 table tr:first-child {
   background-color: transparent;
-  /* background: -moz-linear-gradient(270deg, #FF0000 0%, #FF0000 100%);
-  background: -webkit-linear-gradient(270deg, #FF0000 0%, #FF0000 100%);
-  background: -o-linear-gradient(270deg, #FF0000 0%, #FF0000 100%); */
   color: #fff;
 }    
 }
