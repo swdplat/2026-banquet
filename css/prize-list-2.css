@@ -175,12 +175,7 @@ table tr {
   font-size: 0;
   box-sizing: border-box;
 }
- /* table tr:nth-child(odd) {
-  background: rgba(255, 255, 255, 0.7);
-}
-table tr:nth-child(even) {
-  background: rgba(255, 255, 255, 0.9);
-} */
+
  table td {
   width: 25%;
   display: inline-block;
@@ -197,10 +192,7 @@ table tr:nth-child(even) {
   font-size: 24px;
   line-height: 2em;
   text-align: center;
-  /* background-image: url(../image/table-title.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
+
 }
 .title-one{
   background-image: url(../image/company.png);
@@ -236,9 +228,6 @@ table tr:nth-child(even) {
 }
 table tr:first-child {
   background-color: transparent;
-  /* background: -moz-linear-gradient(270deg, #FF0000 0%, #FF0000 100%);
-  background: -webkit-linear-gradient(270deg, #FF0000 0%, #FF0000 100%);
-  background: -o-linear-gradient(270deg, #FF0000 0%, #FF0000 100%); */
   color: #fff;
 }
 
@@ -266,12 +255,7 @@ table tr {
   font-size: 0;
   box-sizing: border-box;
 }
- /* table tr:nth-child(odd) {
-  background: rgba(255, 255, 255, 0.7);
-}
-table tr:nth-child(even) {
-  background: rgba(255, 255, 255, 0.9);
-} */
+
  table td {
   width: 25%;
   display: inline-block;
